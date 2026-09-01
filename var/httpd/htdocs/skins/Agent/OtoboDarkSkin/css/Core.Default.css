@@ -663,3 +663,22 @@ body > div.MetaFloater > div.NoPreview i {
     background: #ccc !important;
     color: #000;
 }
+
+
+/* Custom dark skin override */
+@media screen, projection, tv, handheld {
+    .oooContentCell {
+        background: #1f1f1f !important;
+    }
+
+    #ArticleTableBody .Scroller {
+        border: 1px solid #1f1f1f !important;
+    }
+
+    .ArticleMailContent iframe,
+    .ArticleMailContent .ArticleBody,
+    .ArticleMailContent .ArticleHTML,
+    .ArticleMailContent .ArticleMeta {
+        background-color: #fff !important;
+    }
+}
