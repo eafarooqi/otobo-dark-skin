@@ -681,4 +681,9 @@ body > div.MetaFloater > div.NoPreview i {
     .ArticleMailContent .ArticleMeta {
         background-color: #fff !important;
     }
+
+    .oooContentGrid label {
+        color: #c8c6c4 !important;
+        text-shadow: none !important;
+    }
 }
