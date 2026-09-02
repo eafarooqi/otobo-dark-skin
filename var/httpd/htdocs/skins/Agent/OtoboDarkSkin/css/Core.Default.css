@@ -686,4 +686,8 @@ body > div.MetaFloater > div.NoPreview i {
         color: #c8c6c4 !important;
         text-shadow: none !important;
     }
+
+    #PageSelection > h2{
+        color: #c8c6c4 !important;
+    }
 }
