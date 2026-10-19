@@ -50,11 +50,6 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
  * @subsection      General
  */
 
-#ConfigTree .jstree-hovered:not(.jstree-disabled),
-#ConfigTree .jstree-wholerow-hovered:not(.jstree-disabled) {
-    background: #333 !important;
-}
-
 /**
  * @subsection      Search
  */

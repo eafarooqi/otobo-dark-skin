@@ -187,15 +187,10 @@ ul.WidgetTooltip li a:hover i {
     color: #888;
 }
 
-.CallForAction,
-.cke_dialog_footer_buttons a.cke_dialog_ui_button {
+.CallForAction {
     color: #c8c6c4;
     border-color: #444;
     background-color: #444;
-}
-
-.cke_dialog_footer_buttons a.cke_dialog_ui_button:hover {
-    background-color: #0000fc;
 }
 
 .CallForAction.Fullsize + .FieldExplanation {

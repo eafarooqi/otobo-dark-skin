@@ -86,44 +86,4 @@ div.InputField_ToolbarContainer ul li a:hover {
     background: #141414;
 }
 
-/**
- * @subsection  jsTree theme
- */
-.jstree-InputField .jstree-anchor {
-    color: #c8c6c4;
-}
-
-.jstree-InputField .jstree-wholerow-ul .jstree-wholerow-clicked {
-    background-color: #333;
-}
-
-.jstree-InputField .jstree-wholerow-ul .jstree-wholerow:hover,
-.jstree-InputField .jstree-wholerow-ul .jstree-wholerow-hovered,
-.jstree-InputField .jstree-focused > .jstree-wholerow {
-    background-color: #555;
-}
-
-.jstree-InputField .jstree-wholerow-ul .jstree-wholerow-clicked:hover,
-.jstree-InputField .jstree-wholerow-ul .jstree-wholerow-clicked.jstree-wholerow-hovered,
-.jstree-InputField .jstree-focused > .jstree-wholerow-clicked {
-    background-color: #666;
-}
-
-.jstree-InputField .Disabled > .jstree-wholerow:hover,
-.jstree-InputField .Disabled > .jstree-wholerow-hovered {
-    background-color: #1f1f1f;
-}
-
-/**
- * @subsection  jsTree theme - Tree variant
- */
- .jstree-InputField-Tree .jstree-node,
-.jstree-InputField-Tree .jstree-icon {
-    background-image: url('../img/inputfield_tree.png');
-}
-
-/**
- * @subsection  jsTree theme - No Tree variant
- */
-
 } /* end @media */

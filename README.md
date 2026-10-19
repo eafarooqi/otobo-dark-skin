@@ -32,3 +32,26 @@ If you want to change the logo shown in the header of the agent interface, chang
 ```
 AgentLogoCustom###OtoboDarkSkin
 ```
+
+## Third-party styles
+
+The custom jQuery UI 1.14.2 theme (including autocomplete) and its images are in
+`css/thirdparty/jquery-ui-1.14.2/`. The supplied vendor CSS is unchanged.
+`css/thirdparty/Overrides.css` contains the jQuery UI compatibility rules for
+OTOBO's default skin, plus the existing CKEditor and jsTree overrides. OTOBO
+core styles and vacation-day highlighting stay in their original CSS files.
+
+Both third-party stylesheets are loaded through
+`Loader::Agent::CommonCSS###999-OtoboDarkSkin-ThirdParty`. They exist only in
+this skin, so OTOBO skips them for other skins. No JavaScript is replaced.
+
+After deploying the updated skin files and configuration, run these commands
+from the OTOBO installation directory as the OTOBO service user:
+
+```sh
+bin/otobo.Console.pl Maint::Config::Rebuild
+bin/otobo.Console.pl Maint::Loader::CacheCleanup
+```
+
+Hard-refresh the browser and check calendar navigation and date states,
+autocomplete with the mouse and keyboard, jsTree fields, and CKEditor dialogs.

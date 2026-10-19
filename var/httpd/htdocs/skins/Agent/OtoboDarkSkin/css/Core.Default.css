@@ -435,67 +435,6 @@ tbody tr:hover span.UnreadArticles i {
     color: #999;
 }
 
-.ui-datepicker.ui-widget-content {
-    border-color: #555;
-    background: #1f1f1f !important;
-    color: #c8c6c4 !important;
-}
-
-.ui-datepicker .ui-datepicker-header {
-    background: #3d3d3d !important;
-    border: 0 !important;
-    font-weight: normal !important;
-    color: #c8c6c4 !important;
-}
-
-.ui-datepicker .ui-datepicker-title,
-.ui-datepicker .ui-datepicker-title span,
-.ui-datepicker th,
-.ui-datepicker .ui-datepicker-header a {
-    color: #c8c6c4 !important;
-}
-
-.ui-datepicker .ui-datepicker-title select {
-    border-color: #555;
-    background: #1f1f1f;
-    color: #c8c6c4;
-}
-
-.ui-datepicker .ui-state-default {
-    border-color: #555;
-    background: #1f1f1f !important;
-    color: #c8c6c4 !important;
-}
-
-.ui-datepicker td .ui-state-hover,
-.ui-datepicker td .ui-state-focus,
-.ui-datepicker .ui-datepicker-header .ui-state-hover,
-.ui-datepicker .ui-datepicker-buttonpane .ui-state-hover,
-.ui-datepicker .ui-datepicker-buttonpane .ui-state-focus {
-    border-color: #999;
-    background: #333 !important;
-    color: #fff !important;
-}
-
-/* Today remains visible even when another date is selected. */
-.ui-datepicker td .ui-state-highlight {
-    border-color: #f6a72b;
-    color: #f6a72b !important;
-}
-
-.ui-datepicker td .ui-state-active {
-    border-color: #3ab5e4;
-    background: #133c4d !important;
-    color: #fff !important;
-}
-
-/* Brighten the existing arrow sprites, including their hover state. */
-.ui-datepicker .ui-datepicker-prev .ui-icon,
-.ui-datepicker .ui-datepicker-next .ui-icon {
-    filter: brightness(0) invert(0.8);
-}
-
-
 /* Vacation Days */
 td.Highlight a.ui-state-default {
     border-color: #3ab5e4;
@@ -515,13 +454,6 @@ td.Highlight a.ui-state-default {
 /**
  * @subsection  Autocompletion
  */
-
-.ui-menu-item:hover,
-.ui-menu-item:focus,
-.ui-menu-item:active,
-.ui-autocomplete .ui-menu-item-wrapper.ui-state-active {
-    background: #666;
-}
 
 /**
  * @subsection  Icons
@@ -569,58 +501,6 @@ td.Highlight a.ui-state-default {
 
 .ChatProtocol {
     border-color: #ccc;
-}
-
-/**
- * @subsection global jQuery UI optimizations
- */
-/*
-* Bug #8288: Autocomplete search results show up in Times font when using Internet Explorer
-*/
-.ui-widget-content, .ui-widget-header {
-    color: #c8c6c4 !important;
-    background: #1f1f1f !important;
-}
-
-.ui-menu-item {
-    background: #1f1f1f;
-}
-
-.ui-menu .ui-menu-item a {
-    color: #c8c6c4 !important;
-}
-
-.ui-widget-header {
-    background: #1f1f1f !important;
-}
-
-.ui-state-default,
-.ui-widget-content .ui-state-default,
-.ui-widget-header .ui-state-default {
-    background: #1f1f1f !important;
-}
-
-.ui-state-hover,
-.ui-widget-content .ui-state-hover,
-.ui-widget-header .ui-state-hover,
-.ui-state-focus,
-.ui-widget-content .ui-state-focus,
-.ui-widget-header .ui-state-focus {
-    background: #333 !important;
-}
-
-/**
- * @subsection global CKEditor fixes/improvements
- */
-
-.cke_toolgroup .cke_button_on {
-    background-color: #ccc;
-}
-
-input.cke_dialog_ui_input_password:focus,
-input.cke_dialog_ui_input_text:focus,
-textarea.cke_dialog_ui_input_textarea:focus {
-    border-color: #fef235 !important;
 }
 
 /**

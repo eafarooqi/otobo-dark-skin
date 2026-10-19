@@ -1,0 +1,123 @@
+/* Third-party component overrides for OtoboDarkSkin. */
+@media screen, projection, tv, handheld {
+/* Match the supplied theme where OTOBO's default skin uses !important. */
+.ui-widget-header {
+    border: 1px solid #333333 !important;
+    background: #333333 url("jquery-ui-1.14.2/images/ui-bg_gloss-wave_25_333333_500x100.png") 50% 50% repeat-x !important;
+    font-weight: bold !important;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    background: #555555 url("jquery-ui-1.14.2/images/ui-bg_glass_20_555555_1x400.png") 50% 50% repeat-x !important;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus,
+.ui-menu-item:hover,
+.ui-menu-item:focus,
+.ui-menu-item:active {
+    background: #0078a3 url("jquery-ui-1.14.2/images/ui-bg_glass_40_0078a3_1x400.png") 50% 50% repeat-x !important;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+.ui-autocomplete .ui-menu-item-wrapper.ui-state-active {
+    background: #f58400 url("jquery-ui-1.14.2/images/ui-bg_inset-soft_30_f58400_1x100.png") 50% 50% repeat-x !important;
+}
+
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+    background: #eeeeee url("jquery-ui-1.14.2/images/ui-bg_highlight-soft_80_eeeeee_1x100.png") 50% top repeat-x !important;
+}
+
+/**
+ * @subsection global CKEditor fixes/improvements
+ */
+
+.cke_toolgroup .cke_button_on {
+    background-color: #ccc;
+}
+
+input.cke_dialog_ui_input_password:focus,
+input.cke_dialog_ui_input_text:focus,
+textarea.cke_dialog_ui_input_textarea:focus {
+    border-color: #fef235 !important;
+}
+
+
+/* Moved from Core.InputFields.css. */
+/**
+ * @subsection  jsTree theme
+ */
+.jstree-InputField .jstree-anchor {
+    color: #c8c6c4;
+}
+
+.jstree-InputField .jstree-wholerow-ul .jstree-wholerow-clicked {
+    background-color: #333;
+}
+
+.jstree-InputField .jstree-wholerow-ul .jstree-wholerow:hover,
+.jstree-InputField .jstree-wholerow-ul .jstree-wholerow-hovered,
+.jstree-InputField .jstree-focused > .jstree-wholerow {
+    background-color: #555;
+}
+
+.jstree-InputField .jstree-wholerow-ul .jstree-wholerow-clicked:hover,
+.jstree-InputField .jstree-wholerow-ul .jstree-wholerow-clicked.jstree-wholerow-hovered,
+.jstree-InputField .jstree-focused > .jstree-wholerow-clicked {
+    background-color: #666;
+}
+
+.jstree-InputField .Disabled > .jstree-wholerow:hover,
+.jstree-InputField .Disabled > .jstree-wholerow-hovered {
+    background-color: #1f1f1f;
+}
+
+/**
+ * @subsection  jsTree theme - Tree variant
+ */
+ .jstree-InputField-Tree .jstree-node,
+.jstree-InputField-Tree .jstree-icon {
+    background-image: url('../../img/inputfield_tree.png');
+}
+
+/**
+ * @subsection  jsTree theme - No Tree variant
+ */
+
+
+/* Moved from Core.Form.css. */
+.JSTreeField .jstree-search.jstree-clicked {
+    color: #c8c6c4;
+}
+
+
+/* Moved from Core.Agent.Admin.SystemConfiguration.css. */
+#ConfigTree .jstree-hovered:not(.jstree-disabled),
+#ConfigTree .jstree-wholerow-hovered:not(.jstree-disabled) {
+    background: #333 !important;
+}
+
+
+/* Moved from Core.Widget.css; .CallForAction stays there. */
+.cke_dialog_footer_buttons a.cke_dialog_ui_button {
+    color: #c8c6c4;
+    border-color: #444;
+    background-color: #444;
+}
+
+.cke_dialog_footer_buttons a.cke_dialog_ui_button:hover {
+    background-color: #0000fc;
+}
+
+
+}

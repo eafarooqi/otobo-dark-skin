@@ -12,6 +12,16 @@
       </Hash>
     </Value>
   </Setting>
+  <Setting Name="Loader::Agent::CommonCSS###999-OtoboDarkSkin-ThirdParty" Required="0" Valid="1">
+    <Description Translatable="1">Load the custom jQuery UI dark theme and shared third-party overrides for OtoboDarkSkin.</Description>
+    <Navigation>Frontend::Base::Loader</Navigation>
+    <Value>
+      <Array>
+        <Item>thirdparty/jquery-ui-1.14.2/jquery-ui.css</Item>
+        <Item>thirdparty/Overrides.css</Item>
+      </Array>
+    </Value>
+  </Setting>
   <Setting Name="AgentLogoCustom###OtoboDarkSkin" Required="0" Valid="0">
     <Description Translatable="1">The logo shown in the header of the agent interface for the skin "OtoboDarkSkin". See "AgentLogo" for further description.</Description>
     <Navigation>Frontend::Agent</Navigation>
