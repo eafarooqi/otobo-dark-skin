@@ -20,6 +20,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 @media screen,projection,tv,handheld {
 
 .LoginScreen .SuccessBox {
+    background-color: #414141;
     color: #c8c6c4;
 }
 
