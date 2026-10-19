@@ -1,0 +1,11 @@
+/* Presentation only: loaded inside the signature preview iframe. */
+html,
+body.ck-content {
+    background-color: #1f1f1f !important;
+    color: #c8c6c4 !important;
+    color-scheme: dark;
+}
+
+body.ck-content a {
+    color: #659ac6;
+}

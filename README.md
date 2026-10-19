@@ -72,3 +72,12 @@ bin/otobo.Console.pl Maint::Loader::CacheCleanup
 
 Hard-refresh the browser and check calendar navigation and date states,
 autocomplete with the mouse and keyboard, jsTree fields, and CKEditor dialogs.
+
+## Signature preview
+
+`js/Core.Agent.OtoboDarkSkin.js` loads `css/thirdparty/Signature.css` inside
+signature preview iframes when the dark skin is active. It derives the asset
+URL from the selected skin's stylesheet, supports queue changes that reload
+the iframe, and does not modify the saved signature HTML. Other skins are
+unaffected. Deploy the JavaScript, iframe stylesheet, and updated configuration
+together, then rebuild configuration and clear the loader cache as above.

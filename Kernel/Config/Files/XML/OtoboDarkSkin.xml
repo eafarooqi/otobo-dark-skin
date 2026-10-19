@@ -23,6 +23,15 @@
       </Array>
     </Value>
   </Setting>
+  <Setting Name="Loader::Agent::CommonJS###999-OtoboDarkSkin" Required="0" Valid="1">
+    <Description Translatable="1">Apply dark preview styles to signature iframes when OtoboDarkSkin is selected.</Description>
+    <Navigation>Frontend::Base::Loader</Navigation>
+    <Value>
+      <Array>
+        <Item>Core.Agent.OtoboDarkSkin.js</Item>
+      </Array>
+    </Value>
+  </Setting>
   <Setting Name="AgentLogoCustom###OtoboDarkSkin" Required="0" Valid="0">
     <Description Translatable="1">The logo shown in the header of the agent interface for the skin "OtoboDarkSkin". See "AgentLogo" for further description.</Description>
     <Navigation>Frontend::Agent</Navigation>

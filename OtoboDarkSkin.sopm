@@ -12,6 +12,9 @@
   <Filelist>
     <!-- Configuration file -->
     <File Permission="660" Location="Kernel/Config/Files/XML/OtoboDarkSkin.xml" />
+    <!-- Signature iframe styling -->
+    <File Permission="660" Location="var/httpd/htdocs/js/Core.Agent.OtoboDarkSkin.js" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/thirdparty/Signature.css" />
     <!-- Content files - CSS -->
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/thirdparty/jquery-ui-1.14.2/images/ui-bg_glass_20_555555_1x400.png" />
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/thirdparty/jquery-ui-1.14.2/images/ui-bg_glass_40_0078a3_1x400.png" />
