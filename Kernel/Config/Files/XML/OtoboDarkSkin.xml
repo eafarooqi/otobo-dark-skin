@@ -19,6 +19,7 @@
       <Array>
         <Item>thirdparty/jquery-ui-1.14.2/jquery-ui.css</Item>
         <Item>thirdparty/Overrides.css</Item>
+        <Item>ThirdParty.Overrides.css</Item>
       </Array>
     </Value>
   </Setting>

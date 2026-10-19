@@ -27,6 +27,7 @@
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/thirdparty/jquery-ui-1.14.2/images/ui-icons_ffffff_256x240.png" />
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/thirdparty/jquery-ui-1.14.2/jquery-ui.css" />
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/thirdparty/Overrides.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/ThirdParty.Overrides.css" />
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/thirdparty/nvd3-1.7.1/nv.d3.css" />
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Agent.Admin.ACL.css" />
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Agent.Admin.CommunicationLog.css" />

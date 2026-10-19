@@ -6,7 +6,7 @@
 
 /* OtoboDarkSkin integration: :root increases selector specificity so this
  * theme wins over the default jquery-ui.min.css linked later by HTMLHead.tt.
- * Colors, layout declarations, and image paths are unchanged.
+ * Colors and layout declarations are unchanged. Image declarations are in css/ThirdParty.Overrides.css for cache-safe URLs.
  */
 
 :root .ui-draggable-handle {
@@ -424,7 +424,6 @@
 }
 :root .ui-widget-content {
 	border: 1px solid #666666;
-	background: #000000 url("images/ui-bg_inset-soft_25_000000_1x100.png") 50% bottom repeat-x;
 	color: #ffffff;
 }
 :root .ui-widget-content a {
@@ -432,7 +431,6 @@
 }
 :root .ui-widget-header {
 	border: 1px solid #333333;
-	background: #333333 url("images/ui-bg_gloss-wave_25_333333_500x100.png") 50% 50% repeat-x;
 	color: #ffffff;
 	font-weight: bold;
 }
@@ -452,7 +450,6 @@ works properly when clicked or hovered */
 html:root .ui-button.ui-state-disabled:hover,
 html:root .ui-button.ui-state-disabled:active {
 	border: 1px solid #666666;
-	background: #555555 url("images/ui-bg_glass_20_555555_1x400.png") 50% 50% repeat-x;
 	font-weight: bold;
 	color: #eeeeee;
 }
@@ -475,7 +472,6 @@ html:root .ui-button.ui-state-disabled:active {
 :root .ui-button:hover,
 :root .ui-button:focus {
 	border: 1px solid #59b4d4;
-	background: #0078a3 url("images/ui-bg_glass_40_0078a3_1x400.png") 50% 50% repeat-x;
 	font-weight: bold;
 	color: #ffffff;
 }
@@ -503,7 +499,6 @@ html:root .ui-button.ui-state-disabled:active {
 :root .ui-button:active,
 :root .ui-button.ui-state-active:hover {
 	border: 1px solid #ffaf0f;
-	background: #f58400 url("images/ui-bg_inset-soft_30_f58400_1x100.png") 50% 50% repeat-x;
 	font-weight: bold;
 	color: #ffffff;
 }
@@ -525,7 +520,6 @@ html:root .ui-button.ui-state-disabled:active {
 :root .ui-widget-content .ui-state-highlight,
 :root .ui-widget-header .ui-state-highlight {
 	border: 1px solid #cccccc;
-	background: #eeeeee url("images/ui-bg_highlight-soft_80_eeeeee_1x100.png") 50% top repeat-x;
 	color: #2e7db2;
 }
 :root .ui-state-checked {
@@ -541,7 +535,6 @@ html:root .ui-button.ui-state-disabled:active {
 :root .ui-widget-content .ui-state-error,
 :root .ui-widget-header .ui-state-error {
 	border: 1px solid #ffb73d;
-	background: #ffc73d url("images/ui-bg_glass_40_ffc73d_1x400.png") 50% 50% repeat-x;
 	color: #111111;
 }
 :root .ui-state-error a,
@@ -579,34 +572,6 @@ html:root .ui-button.ui-state-disabled:active {
 :root .ui-icon {
 	width: 16px;
 	height: 16px;
-}
-:root .ui-icon,
-:root .ui-widget-content .ui-icon {
-	background-image: url("images/ui-icons_cccccc_256x240.png");
-}
-:root .ui-widget-header .ui-icon {
-	background-image: url("images/ui-icons_ffffff_256x240.png");
-}
-:root .ui-state-hover .ui-icon,
-:root .ui-state-focus .ui-icon,
-:root .ui-button:hover .ui-icon,
-:root .ui-button:focus .ui-icon {
-	background-image: url("images/ui-icons_ffffff_256x240.png");
-}
-:root .ui-state-active .ui-icon,
-:root .ui-button:active .ui-icon {
-	background-image: url("images/ui-icons_222222_256x240.png");
-}
-:root .ui-state-highlight .ui-icon,
-:root .ui-button .ui-state-highlight.ui-icon {
-	background-image: url("images/ui-icons_4b8e0b_256x240.png");
-}
-:root .ui-state-error .ui-icon,
-:root .ui-state-error-text .ui-icon {
-	background-image: url("images/ui-icons_a83300_256x240.png");
-}
-:root .ui-button .ui-icon {
-	background-image: url("images/ui-icons_cccccc_256x240.png");
 }
 
 /* positioning */

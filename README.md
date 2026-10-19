@@ -35,21 +35,32 @@ AgentLogoCustom###OtoboDarkSkin
 
 ## Third-party styles
 
-The custom jQuery UI 1.14.2 theme (including autocomplete) and its images are in
-`css/thirdparty/jquery-ui-1.14.2/`. Its selectors have a `:root` prefix so the
+The custom jQuery UI 1.14.2 theme (including autocomplete) is in
+`css/thirdparty/jquery-ui-1.14.2/jquery-ui.css`, with images in
+`css/thirdparty/jquery-ui-1.14.2/images/`. Its selectors have a `:root` prefix so the
 theme takes precedence over the default `jquery-ui.min.css` that OTOBO's
 `HTMLHead.tt` links after the skin CSS. Selectors beginning with `html` use
-`html:root` instead. The supplied declarations and image paths are unchanged.
+`html:root` instead. The supplied colors and layout declarations are unchanged.
+Component styles remain under `css/thirdparty/`. Only declarations that reference
+images are collected in `css/ThirdParty.Overrides.css`, loaded last. That file
+lives in `css/`, which is a sibling of OTOBO's `css-cache/`. Image URLs such as
+`../css/thirdparty/jquery-ui-1.14.2/images/ui-icons_ffffff_256x240.png` resolve to
+the same PNG from either directory. This works with CSS caching enabled or
+disabled, at any installation URL, without hardcoded web paths or base64 data.
+Keep the image stylesheet directly in `css/` for this reason.
 `css/thirdparty/Overrides.css` contains the jQuery UI compatibility rules for
 OTOBO's default skin, plus the existing CKEditor and jsTree overrides. OTOBO
 core styles and vacation-day highlighting stay in their original CSS files.
 
-Both third-party stylesheets are loaded through
+All three stylesheets are loaded through
 `Loader::Agent::CommonCSS###999-OtoboDarkSkin-ThirdParty`. They exist only in
 this skin, so OTOBO skips them for other skins. No JavaScript is replaced.
 
 When replacing the downloaded theme in future, retain these selector prefixes.
-The rules in `Overrides.css` are still needed for OTOBO's `!important` styles.
+Retain the `../css/thirdparty/jquery-ui-1.14.2/images/` image path prefix as well.
+Put image declarations in `css/ThirdParty.Overrides.css`; keep other overrides
+in `css/thirdparty/Overrides.css`, including compatibility with OTOBO's
+`!important` styles.
 
 After deploying the updated skin files and configuration, run these commands
 from the OTOBO installation directory as the OTOBO service user:

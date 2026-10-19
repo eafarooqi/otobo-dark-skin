@@ -1,0 +1,134 @@
+/* Image declarations only. Keep this file directly in css/: relative URLs
+ * resolve identically from css/ and OTOBO's sibling css-cache/ directory.
+ * Component styling lives under thirdparty/. Load this file last.
+ */
+
+/* Images from thirdparty/jquery-ui-1.14.2/jquery-ui.css. */
+:root .ui-widget-content {
+	background: #000000 url("../css/thirdparty/jquery-ui-1.14.2/images/ui-bg_inset-soft_25_000000_1x100.png") 50% bottom repeat-x;
+}
+
+:root .ui-widget-header {
+	background: #333333 url("../css/thirdparty/jquery-ui-1.14.2/images/ui-bg_gloss-wave_25_333333_500x100.png") 50% 50% repeat-x;
+}
+
+:root .ui-state-default,
+:root .ui-widget-content .ui-state-default,
+:root .ui-widget-header .ui-state-default,
+:root .ui-button,
+
+
+html:root .ui-button.ui-state-disabled:hover,
+html:root .ui-button.ui-state-disabled:active {
+	background: #555555 url("../css/thirdparty/jquery-ui-1.14.2/images/ui-bg_glass_20_555555_1x400.png") 50% 50% repeat-x;
+}
+
+:root .ui-state-hover,
+:root .ui-widget-content .ui-state-hover,
+:root .ui-widget-header .ui-state-hover,
+:root .ui-state-focus,
+:root .ui-widget-content .ui-state-focus,
+:root .ui-widget-header .ui-state-focus,
+:root .ui-button:hover,
+:root .ui-button:focus {
+	background: #0078a3 url("../css/thirdparty/jquery-ui-1.14.2/images/ui-bg_glass_40_0078a3_1x400.png") 50% 50% repeat-x;
+}
+
+:root .ui-state-active,
+:root .ui-widget-content .ui-state-active,
+:root .ui-widget-header .ui-state-active,
+:root a.ui-button:active,
+:root .ui-button:active,
+:root .ui-button.ui-state-active:hover {
+	background: #f58400 url("../css/thirdparty/jquery-ui-1.14.2/images/ui-bg_inset-soft_30_f58400_1x100.png") 50% 50% repeat-x;
+}
+
+:root .ui-state-highlight,
+:root .ui-widget-content .ui-state-highlight,
+:root .ui-widget-header .ui-state-highlight {
+	background: #eeeeee url("../css/thirdparty/jquery-ui-1.14.2/images/ui-bg_highlight-soft_80_eeeeee_1x100.png") 50% top repeat-x;
+}
+
+:root .ui-state-error,
+:root .ui-widget-content .ui-state-error,
+:root .ui-widget-header .ui-state-error {
+	background: #ffc73d url("../css/thirdparty/jquery-ui-1.14.2/images/ui-bg_glass_40_ffc73d_1x400.png") 50% 50% repeat-x;
+}
+
+:root .ui-icon,
+:root .ui-widget-content .ui-icon {
+	background-image: url("../css/thirdparty/jquery-ui-1.14.2/images/ui-icons_cccccc_256x240.png");
+}
+
+:root .ui-widget-header .ui-icon {
+	background-image: url("../css/thirdparty/jquery-ui-1.14.2/images/ui-icons_ffffff_256x240.png");
+}
+
+:root .ui-state-hover .ui-icon,
+:root .ui-state-focus .ui-icon,
+:root .ui-button:hover .ui-icon,
+:root .ui-button:focus .ui-icon {
+	background-image: url("../css/thirdparty/jquery-ui-1.14.2/images/ui-icons_ffffff_256x240.png");
+}
+
+:root .ui-state-active .ui-icon,
+:root .ui-button:active .ui-icon {
+	background-image: url("../css/thirdparty/jquery-ui-1.14.2/images/ui-icons_222222_256x240.png");
+}
+
+:root .ui-state-highlight .ui-icon,
+:root .ui-button .ui-state-highlight.ui-icon {
+	background-image: url("../css/thirdparty/jquery-ui-1.14.2/images/ui-icons_4b8e0b_256x240.png");
+}
+
+:root .ui-state-error .ui-icon,
+:root .ui-state-error-text .ui-icon {
+	background-image: url("../css/thirdparty/jquery-ui-1.14.2/images/ui-icons_a83300_256x240.png");
+}
+
+:root .ui-button .ui-icon {
+	background-image: url("../css/thirdparty/jquery-ui-1.14.2/images/ui-icons_cccccc_256x240.png");
+}
+
+@media screen, projection, tv, handheld {
+/* Images from thirdparty/Overrides.css. */
+.ui-widget-header {
+    background: #333333 url("../css/thirdparty/jquery-ui-1.14.2/images/ui-bg_gloss-wave_25_333333_500x100.png") 50% 50% repeat-x !important;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    background: #555555 url("../css/thirdparty/jquery-ui-1.14.2/images/ui-bg_glass_20_555555_1x400.png") 50% 50% repeat-x !important;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus,
+.ui-menu-item:hover,
+.ui-menu-item:focus,
+.ui-menu-item:active {
+    background: #0078a3 url("../css/thirdparty/jquery-ui-1.14.2/images/ui-bg_glass_40_0078a3_1x400.png") 50% 50% repeat-x !important;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+.ui-autocomplete .ui-menu-item-wrapper.ui-state-active {
+    background: #f58400 url("../css/thirdparty/jquery-ui-1.14.2/images/ui-bg_inset-soft_30_f58400_1x100.png") 50% 50% repeat-x !important;
+}
+
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+    background: #eeeeee url("../css/thirdparty/jquery-ui-1.14.2/images/ui-bg_highlight-soft_80_eeeeee_1x100.png") 50% top repeat-x !important;
+}
+
+.jstree-InputField-Tree .jstree-node,
+.jstree-InputField-Tree .jstree-icon {
+    background-image: url("../img/inputfield_tree.png");
+}
+}
