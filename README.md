@@ -36,7 +36,10 @@ AgentLogoCustom###OtoboDarkSkin
 ## Third-party styles
 
 The custom jQuery UI 1.14.2 theme (including autocomplete) and its images are in
-`css/thirdparty/jquery-ui-1.14.2/`. The supplied vendor CSS is unchanged.
+`css/thirdparty/jquery-ui-1.14.2/`. Its selectors have a `:root` prefix so the
+theme takes precedence over the default `jquery-ui.min.css` that OTOBO's
+`HTMLHead.tt` links after the skin CSS. Selectors beginning with `html` use
+`html:root` instead. The supplied declarations and image paths are unchanged.
 `css/thirdparty/Overrides.css` contains the jQuery UI compatibility rules for
 OTOBO's default skin, plus the existing CKEditor and jsTree overrides. OTOBO
 core styles and vacation-day highlighting stay in their original CSS files.
@@ -44,6 +47,9 @@ core styles and vacation-day highlighting stay in their original CSS files.
 Both third-party stylesheets are loaded through
 `Loader::Agent::CommonCSS###999-OtoboDarkSkin-ThirdParty`. They exist only in
 this skin, so OTOBO skips them for other skins. No JavaScript is replaced.
+
+When replacing the downloaded theme in future, retain these selector prefixes.
+The rules in `Overrides.css` are still needed for OTOBO's `!important` styles.
 
 After deploying the updated skin files and configuration, run these commands
 from the OTOBO installation directory as the OTOBO service user:
